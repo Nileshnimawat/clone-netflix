@@ -13,7 +13,9 @@ html,body{
     background-color: black;
     font-family: "Urbanist", sans-serif;
     font-size: 62.5%;
+   
 }
+
 a{
     display: inline-block;
 }
@@ -100,6 +102,7 @@ a{
     position: relative;
     z-index: 10;
     margin-left: 12px;
+
 }
 .content > :first-child{
     font-size: 5.2rem;
@@ -154,6 +157,7 @@ a{
     align-items: center;
     background-color: black;
     text-align: center
+    
 }
 .first{
     max-width: 80%;
@@ -163,10 +167,7 @@ a{
     align-items: center;
     background-color: black;
     text-align: center;
-    
 }
-
-
 .second{
     max-width: 80%;
    
@@ -182,22 +183,27 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .SecHeading >  :nth-child(1){
     font-size: 5.2rem;
     font-weight: bolder;
     position: relative;
+    z-index: 2;
+    color: white;
 }
 .SecHeading >  :nth-child(2){
     font-size: 2.4rem;
     position: relative;
+    z-index: 2;
+    color: white;
 }
 .SecImage{
     position: relative;
 }
 .SecImage img{
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 .SecImage video{
     top: 19%;
@@ -239,10 +245,12 @@ a{
     font-size: 6rem;
     font-weight: bolder;
     position: relative;
+    color: white;
 }
 .SecondHeading >  :nth-child(2){
     font-size: 2.5rem;
     position: relative;
+    color: white;
 }
 
 
@@ -299,6 +307,7 @@ align-items: center;
     margin: 5px;
     background-color: #2d2d2d;
     cursor: pointer;
+    color: white;
 }
 .FAQ .box:hover{
     background-color: #414141;
@@ -439,7 +448,7 @@ align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
         gap: 2rem;
-        margin-left: 150px;
+        margin-left: 50px;
     }
    
 
